@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto:wght@300&display=swap");
+
+body,
+html {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+h1 {
+  margin: 0px;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+  font-size: 20pt;
+}
+
+a {
+  color: #0060b6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  margin: 5px;
+  padding: 5px;
+  border: solid 2px #0060b6;
+}
+
+li:hover {
+  border: solid 2px #00a0c6;
+}
+
+.p-center {
+  text-align: center;
+}
+
+#explore {
+  /* line-height: 25px; */
+}
+
+.top-nav-left {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 20%;
+}
+
+.top-nav-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20%;
+}
+
+.left {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/left-arrow.png);
+}
+
+.right {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./img/right-arrow.png);
+}
+
+.buttonn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: rgba(0,0,0,0);
+  border: solid 4px black;
+  color: black;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-items: center;
+  transition: 0.9s;
+  margin: 10px 10px;
+}
+
+.buttonn:hover {
+  background-color: #1F70C1;
+  color: white;
+  border-radius: 20px;
+  cursor:pointer;  
+}
+
+.buttonn:focus {
+  background-color: #1F70C1;
+  color: white;
+  border-radius: 20px;
+  cursor:pointer;  
+}
+
+.center-box {
+  width: 100vw;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.break {
+  width: 100%;
+}
+
+.tall {
+  height: 20px;
+}
+
+#welcome {
+  margin-bottom: 5px;
+}
+
+#intentional-inclusion {
+  font-size: 40pt;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.stat {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+th,
+td {
+  border: 1.5px solid;
+  width: 100px;
+}
+
+th {
+  height: 40px;
+}
+
+td {
+  text-align: right;
+  padding-right: 5px;
+}
+
+table {
+  border-collapse: collapse;
+
+  display: table-cell;
+}
+
+.red {
+  color: rgb(243, 54, 51);
+}
+
+.green {
+  color: rgb(58, 145, 64);
+}
+
+.grey {
+  color: lightgray;
+}
+
+table {
+  padding: 20px;
+}
+
+#cta-links {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

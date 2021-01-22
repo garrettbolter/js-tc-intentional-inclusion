@@ -1,0 +1,95 @@
+.color-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.NCB_red {
+  width: 80px;
+  background-color: rgb(243, 54, 51);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+  position: relative;
+  display: inline-block;
+}
+
+.NCB_orange {
+  width: 80px;
+  background-color: rgb(254, 145, 52);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+.NCB_yellow {
+  width: 80px;
+  background-color: Rgb(241, 232, 3);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+.NCB_green {
+  width: 80px;
+  background-color: rgb(58, 145, 64);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+
+.CB_red {
+  width: 80px;
+  background-color: rgb(130, 130, 34);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+
+.CB_orange {
+  width: 80px;
+  background-color: rgb(176, 175, 37);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+.CB_yellow {
+  width: 80px;
+  background-color: Rgb(231, 231, 3);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+.CB_green {
+  width: 80px;
+  background-color: rgb(115, 115, 59);
+  display: inline-block;
+  height: 80px;
+  border-radius: 20%;
+  float: left;
+  /* margin: 0 24px; */
+}
+
+.color-square .colorText {
+  margin-top: 24px;
+  opacity: 0;
+  transition: 0.6s opacity;
+}
+
+
+#hover-square:hover > .colorText {
+  opacity: 1;
+}
